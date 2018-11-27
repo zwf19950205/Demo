@@ -1,0 +1,27 @@
+# 忽略数据目录
+data/docx/*.docx
+data/html/*.html
+data/temp/
+node_modules/
+
+#忽略个人开发配置文件
+config/local-dev.js
+idea/
+
+# 忽略日志文件
+log/
+err/
+*.log
+*.err
+err
+log
+
+# 忽略pyc文件后缀
+*.pyc
+
+# 忽略 IDE 文件
+.vscode
+.idea
+
+# 忽略 package-lock.json
+/package-lock.json
